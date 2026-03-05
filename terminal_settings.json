@@ -1,0 +1,60 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysOnTop": false,
+    "alwaysShowNotificationIcon": false,
+    "compatibility.enableUnfocusedAcrylic": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{7dcef245-7539-445d-8f1a-a62c90b1b9a4}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": [],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "One Half Dark"
+        },
+        "list": 
+        [
+            {
+                "bellStyle": "none",
+                "colorScheme": "One Half Dark",
+                "commandline": "cmd.exe /k %CMDER_ROOT%\\vendor\\init.bat",
+                "elevate": false,
+                "experimental.rainbowSuggestions": false,
+                "guid": "{7dcef245-7539-445d-8f1a-a62c90b1b9a4}",
+                "hidden": false,
+                "icon": "%CMDER_ROOT%\\icons\\cmder_red.ico",
+                "name": "cmder",
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            }
+        ]
+    },
+    "schemes": [],
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": true,
+    "warning.confirmCloseAllTabs": false,
+    "warning.largePaste": false
+}
