@@ -1,0 +1,643 @@
+{
+  "__VERSION__": "262",
+  "FanControl": {
+    "Controls": [
+      {
+        "NickName": "AIO fans",
+        "Identifier": "/lpc/it8686e/control/0",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "CPU curve"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/it8686e/fan/0"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 37,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            505
+          ],
+          [
+            1,
+            506
+          ],
+          [
+            10,
+            507
+          ],
+          [
+            20,
+            709
+          ],
+          [
+            30,
+            1018
+          ],
+          [
+            40,
+            1275
+          ],
+          [
+            50,
+            1486
+          ],
+          [
+            60,
+            1683
+          ],
+          [
+            70,
+            1852
+          ],
+          [
+            80,
+            2003
+          ],
+          [
+            90,
+            2123
+          ],
+          [
+            100,
+            2258
+          ]
+        ]
+      },
+      {
+        "NickName": "Fan #2",
+        "Identifier": "/lpc/it8686e/control/1",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Fan #3",
+        "Identifier": "/lpc/it8686e/control/2",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Case fans",
+        "Identifier": "/lpc/it8686e/control/3",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Case fans curve"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/it8686e/fan/3"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 0,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            615
+          ],
+          [
+            1,
+            617
+          ],
+          [
+            10,
+            618
+          ],
+          [
+            20,
+            844
+          ],
+          [
+            30,
+            1049
+          ],
+          [
+            40,
+            1235
+          ],
+          [
+            50,
+            1398
+          ],
+          [
+            60,
+            1554
+          ],
+          [
+            70,
+            1697
+          ],
+          [
+            80,
+            1833
+          ],
+          [
+            90,
+            1955
+          ],
+          [
+            100,
+            2083
+          ]
+        ]
+      },
+      {
+        "NickName": "AIO pump",
+        "Identifier": "/lpc/it8686e/control/4",
+        "IsHidden": false,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/it8686e/fan/4"
+        },
+        "SelectedStart": 38,
+        "SelectedStop": 26,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            20,
+            0
+          ],
+          [
+            40,
+            1885
+          ],
+          [
+            60,
+            3096
+          ],
+          [
+            70,
+            3096
+          ],
+          [
+            80,
+            3096
+          ],
+          [
+            100,
+            3096
+          ]
+        ]
+      },
+      {
+        "NickName": "Fan #1",
+        "Identifier": "/lpc/it8792e/control/0",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Fan #2",
+        "Identifier": "/lpc/it8792e/control/1",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Fan #3",
+        "Identifier": "/lpc/it8792e/control/2",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Sides - NVIDIA GeForce RTX 4070 Ti",
+        "Identifier": "NVApiWrapper/0-AD104-A/control/0",
+        "IsHidden": false,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-AD104-A/fan/0"
+        },
+        "SelectedStart": 9,
+        "SelectedStop": 6,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 15,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            992
+          ],
+          [
+            10,
+            992
+          ],
+          [
+            20,
+            992
+          ],
+          [
+            30,
+            992
+          ],
+          [
+            40,
+            1307
+          ],
+          [
+            50,
+            1616
+          ],
+          [
+            60,
+            1934
+          ],
+          [
+            70,
+            2252
+          ],
+          [
+            80,
+            2568
+          ],
+          [
+            90,
+            2878
+          ],
+          [
+            100,
+            3202
+          ]
+        ]
+      },
+      {
+        "NickName": "Center - NVIDIA GeForce RTX 4070 Ti",
+        "Identifier": "NVApiWrapper/0-AD104-A/control/1",
+        "IsHidden": false,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-AD104-A/fan/1"
+        },
+        "SelectedStart": 9,
+        "SelectedStop": 6,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 15,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            992
+          ],
+          [
+            10,
+            992
+          ],
+          [
+            20,
+            992
+          ],
+          [
+            30,
+            992
+          ],
+          [
+            40,
+            1308
+          ],
+          [
+            50,
+            1624
+          ],
+          [
+            60,
+            1941
+          ],
+          [
+            70,
+            2255
+          ],
+          [
+            80,
+            2575
+          ],
+          [
+            90,
+            2895
+          ],
+          [
+            100,
+            3224
+          ]
+        ]
+      }
+    ],
+    "CustomSensors": [
+      {
+        "NickName": "Avg GPU",
+        "Identifier": "Mix/Avg GPU",
+        "IsHidden": false,
+        "AllowMissingSensor": false,
+        "SelectedMixFunction": 0,
+        "SelectedSensors": [
+          {
+            "Identifier": "NVApiWrapper/0-AD104-A/sensor/0"
+          }
+        ]
+      }
+    ],
+    "FanCurves": [
+      {
+        "Name": "CPU curve",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "/amdcpu/0/temperature/2"
+        },
+        "Points": [
+          "40.0099420466773,12",
+          "55,22",
+          "60,45",
+          "65,60",
+          "80,75",
+          "85,80"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 4,
+          "ResponseTimeDown": 10,
+          "HysteresisValueUp": 3,
+          "HysteresisValueDown": 3,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "Case fans curve",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "Mix/Avg GPU"
+        },
+        "Points": [
+          "35,12",
+          "45,13",
+          "55,15",
+          "60,20",
+          "65,40",
+          "75,50",
+          "100.41731426306153,100"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 4,
+          "ResponseTimeDown": 10,
+          "HysteresisValueUp": 3,
+          "HysteresisValueDown": 3,
+          "IgnoreHysteresisAtLimits": true
+        }
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/it8686e/fan/0",
+        "IsHidden": false,
+        "NickName": "Fan #1"
+      },
+      {
+        "Identifier": "/lpc/it8686e/fan/1",
+        "IsHidden": false,
+        "NickName": "Fan #2"
+      },
+      {
+        "Identifier": "/lpc/it8686e/fan/2",
+        "IsHidden": false,
+        "NickName": "Fan #3"
+      },
+      {
+        "Identifier": "/lpc/it8686e/fan/3",
+        "IsHidden": false,
+        "NickName": "Fan #4"
+      },
+      {
+        "Identifier": "/lpc/it8686e/fan/4",
+        "IsHidden": false,
+        "NickName": "Fan #5"
+      },
+      {
+        "Identifier": "/lpc/it8792e/fan/0",
+        "IsHidden": false,
+        "NickName": "Fan #1"
+      },
+      {
+        "Identifier": "/lpc/it8792e/fan/1",
+        "IsHidden": false,
+        "NickName": "Fan #2"
+      },
+      {
+        "Identifier": "/lpc/it8792e/fan/2",
+        "IsHidden": false,
+        "NickName": "Fan #3"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-AD104-A/fan/0",
+        "IsHidden": false,
+        "NickName": "Control 1 - NVIDIA GeForce RTX 4070 Ti"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-AD104-A/fan/1",
+        "IsHidden": false,
+        "NickName": "Control 2 - NVIDIA GeForce RTX 4070 Ti"
+      }
+    ],
+    "TemperatureSensors": [
+      {
+        "Identifier": "/amdcpu/0/temperature/2",
+        "IsHidden": false,
+        "NickName": "Core (Tctl/Tdie)"
+      },
+      {
+        "Identifier": "/amdcpu/0/temperature/3",
+        "IsHidden": false,
+        "NickName": "CCD1 (Tdie)"
+      },
+      {
+        "Identifier": "/lpc/it8686e/temperature/0",
+        "IsHidden": false,
+        "NickName": "Temperature #1"
+      },
+      {
+        "Identifier": "/lpc/it8686e/temperature/1",
+        "IsHidden": false,
+        "NickName": "Temperature #2"
+      },
+      {
+        "Identifier": "/lpc/it8686e/temperature/2",
+        "IsHidden": false,
+        "NickName": "Temperature #3"
+      },
+      {
+        "Identifier": "/lpc/it8686e/temperature/3",
+        "IsHidden": false,
+        "NickName": "Temperature #4"
+      },
+      {
+        "Identifier": "/lpc/it8686e/temperature/4",
+        "IsHidden": false,
+        "NickName": "Temperature #5"
+      },
+      {
+        "Identifier": "/lpc/it8686e/temperature/5",
+        "IsHidden": false,
+        "NickName": "Temperature #6"
+      },
+      {
+        "Identifier": "/lpc/it8792e/temperature/0",
+        "IsHidden": false,
+        "NickName": "Temperature #1"
+      },
+      {
+        "Identifier": "/lpc/it8792e/temperature/1",
+        "IsHidden": false,
+        "NickName": "Temperature #2"
+      },
+      {
+        "Identifier": "/lpc/it8792e/temperature/2",
+        "IsHidden": false,
+        "NickName": "Temperature #3"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-AD104-A/sensor/0",
+        "IsHidden": false,
+        "NickName": "GPU"
+      }
+    ]
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "Memory": false,
+      "Motherboard": true,
+      "PowerMonitor": false,
+      "PSU": false,
+      "Storage": false,
+      "StorageUpdateInterval": "00:01:00",
+      "ZeroRPMOverride": true
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": true
+    }
+  },
+  "MainWindow": {
+    "Fahrenheit": false,
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF607D8B",
+    "SecondaryColor": "#FFAEEA00",
+    "SelectedTheme": "",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TrayIconColor": null,
+    "TrayIcons": []
+  }
+}
